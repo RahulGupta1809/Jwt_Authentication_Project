@@ -20,7 +20,5 @@ public class UserInfoController {
 	@PostMapping
 	public String addUser(@RequestBody UserInfo userInfo) {
 		return userService.addUser(userInfo);
-
 	}
-
 }
