@@ -23,12 +23,4 @@ public class UserController {
 		ResponseDto responseDto = userService.getUser(userId);
 		return ResponseEntity.ok(responseDto);
 	}
-
-	/*
-	 * @GetMapping("/") public ResponseEntity<ArrayList<ResponseDto>> getUsers(){
-	 * ArrayList<ResponseDto> responseDto = userService.getUsers(); return
-	 * ResponseEntity.ok(responseDto);
-	 * 
-	 * }
-	 */
 }
