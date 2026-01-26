@@ -51,7 +51,6 @@ public class JwtAuthFilter extends OncePerRequestFilter {
 		filterChain.doFilter(request, response);
 	}
 }
-
 /*
  * import org.springframework.beans.factory.annotation.Autowired; import
  * org.springframework.security.authentication.
@@ -99,4 +98,5 @@ public class JwtAuthFilter extends OncePerRequestFilter {
  * 
  * 
  * } }
+
  */
