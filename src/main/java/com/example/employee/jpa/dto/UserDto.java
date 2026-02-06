@@ -1,5 +1,5 @@
 package com.example.employee.jpa.dto;
-
+//Bean USer DTO
 public class UserDto {
 	
 	    private int id;
@@ -34,3 +34,4 @@ public class UserDto {
 		}
 	   
 	}
+
