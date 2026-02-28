@@ -1,5 +1,5 @@
 package com.example.employee.jpa.dto;
-//Request DTO Class
+//Request DTO Class Class For Bean Class Clarification
 public class ResponseDto {
 	private UserDto user;
 	
@@ -18,4 +18,5 @@ public class ResponseDto {
 		this.user = user;
 	}
 }
+
 
