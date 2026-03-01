@@ -4,21 +4,17 @@ import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
-
 import org.springframework.stereotype.Service;
 import org.springframework.web.filter.OncePerRequestFilter;
-
 import com.example.employee.jpa.service.JwtService;
 import com.example.employee.jpa.service.UserInfoUserDetailsService;
-
 import java.io.IOException;
-
+// Filter Class
 @Service
 public class JwtAuthFilter extends OncePerRequestFilter {
 
@@ -100,3 +96,4 @@ public class JwtAuthFilter extends OncePerRequestFilter {
  * } }
 
  */
+
