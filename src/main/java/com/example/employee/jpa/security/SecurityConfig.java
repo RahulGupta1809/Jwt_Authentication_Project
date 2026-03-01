@@ -22,7 +22,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import com.example.employee.jpa.filter.JwtAuthFilter;
 import com.example.employee.jpa.service.UserInfoUserDetailsService;
-
+//Security Config Class
 @Configuration
 @EnableWebSecurity
 @EnableMethodSecurity
@@ -154,3 +154,4 @@ public class SecurityConfig {
  * authenticationManager(AuthenticationConfiguration config) throws Exception {
  * return config.getAuthenticationManager(); } }
  */
+
