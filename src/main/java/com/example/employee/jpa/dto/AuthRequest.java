@@ -1,6 +1,6 @@
 package com.example.employee.jpa.dto;
 
-//Request Bean Class
+
 public class AuthRequest {
 	private String username;
 	private String password;
